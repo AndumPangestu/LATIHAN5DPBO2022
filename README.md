@@ -18,5 +18,10 @@ jika inputan tidak lengkap maka tidak akan dilakukan penambhan atau pengubahan d
 
 ![image](https://user-images.githubusercontent.com/91056905/159208385-b789fc09-83de-4cc5-a005-b5432fffb8f2.png)
 
+d. untuk menghapus data pada label inputan, ditambahkan satu method emptyTextFields() yang berfungsi untuk mengosongkan label inputan setiap kali operasi berhasil dilakukan. method tersebut akan dipanggil di setiap akhir operasi seperti operasi add, cancel, update dan delete.
 
+![image](https://user-images.githubusercontent.com/91056905/159208643-cbedd55d-3e8a-4456-b55c-91dbcf961099.png)
 
+e. update tabel pada setiap ada perubahan dilakukan dengan pemanggilan jTable1.setModel(setTable()) pada setiap akhir operasi.
+
+* bonus : dilakukan penambhan atribut inputan baru, yaitu inputan kelas.
